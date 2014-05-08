@@ -119,6 +119,7 @@ class LData extends LSingletonData{
 		}
 		return false;
 	}
+	
 
 	public function flushAll(){
 		unset($_SESSION['L_UserdataSession']);
